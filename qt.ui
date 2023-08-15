@@ -1,0 +1,1577 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1584</width>
+    <height>648</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Heval Can Aslan ÖZEN-151220172030</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>icons/Logo.png</normaloff>icons/Logo.png</iconset>
+  </property>
+  <property name="toolButtonStyle">
+   <enum>Qt::ToolButtonIconOnly</enum>
+  </property>
+  <property name="animated">
+   <bool>false</bool>
+  </property>
+  <property name="documentMode">
+   <bool>false</bool>
+  </property>
+  <property name="tabShape">
+   <enum>QTabWidget::Rounded</enum>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QGroupBox" name="sourceGroupBox">
+      <property name="minimumSize">
+       <size>
+        <width>517</width>
+        <height>520</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="title">
+       <string>Source</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <widget class="QGroupBox" name="sourceButtonsBar">
+         <property name="maximumSize">
+          <size>
+           <width>650</width>
+           <height>215</height>
+          </size>
+         </property>
+         <property name="title">
+          <string/>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout">
+          <item>
+           <widget class="QPushButton" name="pB_clearSource">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>155</width>
+              <height>24</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>155</width>
+              <height>24</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="toolTip">
+             <string>Clear</string>
+            </property>
+            <property name="statusTip">
+             <string>Clear the Source</string>
+            </property>
+            <property name="text">
+             <string>Clear</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>icons/clear.png</normaloff>icons/clear.png</iconset>
+            </property>
+            <property name="shortcut">
+             <string>Ctrl+L</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pB_exportAsSource">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>155</width>
+              <height>24</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>155</width>
+              <height>24</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="toolTip">
+             <string>Export As</string>
+            </property>
+            <property name="statusTip">
+             <string>Export As Source</string>
+            </property>
+            <property name="text">
+             <string>Export As</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>icons/export.png</normaloff>icons/export.png</iconset>
+            </property>
+            <property name="shortcut">
+             <string>Ctrl+E</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pB_openSource">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>155</width>
+              <height>24</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>155</width>
+              <height>24</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="toolTip">
+             <string>Open Source</string>
+            </property>
+            <property name="statusTip">
+             <string>Open Source</string>
+            </property>
+            <property name="whatsThis">
+             <string/>
+            </property>
+            <property name="text">
+             <string>Open Source</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>icons/upload_file.png</normaloff>icons/upload_file.png</iconset>
+            </property>
+            <property name="shortcut">
+             <string>Ctrl+O</string>
+            </property>
+            <property name="default">
+             <bool>false</bool>
+            </property>
+            <property name="flat">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="sourceLabel">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>497</width>
+           <height>429</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::Box</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Sunken</enum>
+         </property>
+         <property name="lineWidth">
+          <number>5</number>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QGroupBox" name="operationGroupBox">
+      <property name="maximumSize">
+       <size>
+        <width>600</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="title">
+       <string>Operations</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QGroupBox" name="operationsButtonsGroupBox">
+         <property name="title">
+          <string/>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout_2">
+          <item>
+           <widget class="QPushButton" name="pB_redo">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>156</width>
+              <height>24</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>156</width>
+              <height>24</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>12</pointsize>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="toolTip">
+             <string>Redo</string>
+            </property>
+            <property name="statusTip">
+             <string>Redo</string>
+            </property>
+            <property name="text">
+             <string>Redo</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>icons/redo.png</normaloff>icons/redo.png</iconset>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pb_clearAll">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>156</width>
+              <height>24</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>156</width>
+              <height>24</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>12</pointsize>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="toolTip">
+             <string>Clear</string>
+            </property>
+            <property name="statusTip">
+             <string>Clear All</string>
+            </property>
+            <property name="text">
+             <string>Clear</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>icons/clear.png</normaloff>icons/clear.png</iconset>
+            </property>
+            <property name="shortcut">
+             <string>Del</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pB_undo">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>156</width>
+              <height>24</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>156</width>
+              <height>24</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>12</pointsize>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="toolTip">
+             <string>Undo</string>
+            </property>
+            <property name="statusTip">
+             <string>Undo</string>
+            </property>
+            <property name="text">
+             <string>Undo</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>icons/undo.png</normaloff>icons/undo.png</iconset>
+            </property>
+            <property name="shortcut">
+             <string>Ctrl+Z</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QGroupBox" name="ConversionGroupBox">
+         <property name="font">
+          <font>
+           <pointsize>12</pointsize>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="title">
+          <string>Conversion</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout_4">
+          <item>
+           <widget class="QPushButton" name="pB_rgbToGray">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>236</width>
+              <height>48</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>236</width>
+              <height>48</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>12</pointsize>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="toolTip">
+             <string>RGB to GS</string>
+            </property>
+            <property name="statusTip">
+             <string>RGB to GS</string>
+            </property>
+            <property name="text">
+             <string>RGB to GrayScale</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>icons/rgb2gray3.png</normaloff>icons/rgb2gray3.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>24</width>
+              <height>24</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pB_rgbToHsv">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>236</width>
+              <height>48</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>236</width>
+              <height>48</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>12</pointsize>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="acceptDrops">
+             <bool>false</bool>
+            </property>
+            <property name="toolTip">
+             <string>RGB to HSV</string>
+            </property>
+            <property name="statusTip">
+             <string>RGB to HSV</string>
+            </property>
+            <property name="text">
+             <string>RGB to HSV</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>icons/rgb2hsv.png</normaloff>icons/rgb2hsv.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>24</width>
+              <height>24</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QGroupBox" name="SegmentationGroupBox">
+         <property name="font">
+          <font>
+           <pointsize>12</pointsize>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="title">
+          <string>Segmentation</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout_5">
+          <item>
+           <widget class="QPushButton" name="pB_MOS">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>155</width>
+              <height>48</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>155</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="toolTip">
+             <string>MOT</string>
+            </property>
+            <property name="statusTip">
+             <string>MOT</string>
+            </property>
+            <property name="layoutDirection">
+             <enum>Qt::LeftToRight</enum>
+            </property>
+            <property name="text">
+             <string>  Multi-Otsu
+Thresholding</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>icons/mot.png</normaloff>icons/mot.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>24</width>
+              <height>24</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pB_CVS">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>155</width>
+              <height>48</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>155</width>
+              <height>48</height>
+             </size>
+            </property>
+            <property name="toolTip">
+             <string>CVS</string>
+            </property>
+            <property name="statusTip">
+             <string>CVS</string>
+            </property>
+            <property name="text">
+             <string>  Chan-Vese
+Segmentation</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>icons/cvs.png</normaloff>icons/cvs.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>24</width>
+              <height>24</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pB_MS">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>155</width>
+              <height>48</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>155</width>
+              <height>48</height>
+             </size>
+            </property>
+            <property name="toolTip">
+             <string>MS</string>
+            </property>
+            <property name="statusTip">
+             <string>MS</string>
+            </property>
+            <property name="text">
+             <string>Morphological
+       Snakes</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>icons/ms.png</normaloff>icons/ms.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>24</width>
+              <height>24</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QGroupBox" name="EdgeDetGroupBox">
+         <property name="font">
+          <font>
+           <pointsize>12</pointsize>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="layoutDirection">
+          <enum>Qt::LeftToRight</enum>
+         </property>
+         <property name="autoFillBackground">
+          <bool>false</bool>
+         </property>
+         <property name="title">
+          <string>Edge Detection</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout_7">
+          <item>
+           <widget class="QPushButton" name="pB_Roberts">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>114</width>
+              <height>48</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>114</width>
+              <height>48</height>
+             </size>
+            </property>
+            <property name="toolTip">
+             <string>Roberts</string>
+            </property>
+            <property name="statusTip">
+             <string>Roberts</string>
+            </property>
+            <property name="text">
+             <string>Roberts</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>icons/ro.png</normaloff>icons/ro.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>24</width>
+              <height>24</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pB_Sobel">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>114</width>
+              <height>48</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>114</width>
+              <height>48</height>
+             </size>
+            </property>
+            <property name="toolTip">
+             <string>Sobel</string>
+            </property>
+            <property name="statusTip">
+             <string>Sobel</string>
+            </property>
+            <property name="text">
+             <string>Sobel</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>icons/so.png</normaloff>icons/so.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>24</width>
+              <height>24</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pB_Scharr">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>114</width>
+              <height>48</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>114</width>
+              <height>48</height>
+             </size>
+            </property>
+            <property name="toolTip">
+             <string>Scharr</string>
+            </property>
+            <property name="statusTip">
+             <string>Scharr</string>
+            </property>
+            <property name="text">
+             <string>Scharr</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>icons/sch.png</normaloff>icons/sch.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>24</width>
+              <height>24</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pB_Previtt">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>114</width>
+              <height>48</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>114</width>
+              <height>48</height>
+             </size>
+            </property>
+            <property name="toolTip">
+             <string>Prewitt</string>
+            </property>
+            <property name="statusTip">
+             <string>Prewitt</string>
+            </property>
+            <property name="text">
+             <string>Prewitt</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>icons/pr.png</normaloff>icons/pr.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>24</width>
+              <height>24</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="0" column="2">
+     <widget class="QGroupBox" name="outputGroupBox">
+      <property name="minimumSize">
+       <size>
+        <width>517</width>
+        <height>520</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="title">
+       <string>Output</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <item>
+        <widget class="QGroupBox" name="outputButtonsBar">
+         <property name="maximumSize">
+          <size>
+           <width>650</width>
+           <height>215</height>
+          </size>
+         </property>
+         <property name="title">
+          <string/>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout_3">
+          <item>
+           <widget class="QPushButton" name="pB_saveOutput">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>122</width>
+              <height>24</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>122</width>
+              <height>24</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="toolTip">
+             <string>Save</string>
+            </property>
+            <property name="statusTip">
+             <string>Save Output</string>
+            </property>
+            <property name="text">
+             <string>Save</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>icons/save.png</normaloff>icons/save.png</iconset>
+            </property>
+            <property name="shortcut">
+             <string>Ctrl+S</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pB_saveAsOutput">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>122</width>
+              <height>24</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>122</width>
+              <height>24</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="toolTip">
+             <string>Save As</string>
+            </property>
+            <property name="statusTip">
+             <string>Save As Output</string>
+            </property>
+            <property name="text">
+             <string>Save As</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>icons/save_as.png</normaloff>icons/save_as.png</iconset>
+            </property>
+            <property name="shortcut">
+             <string>Ctrl+Shift+S</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pB_exportAsOutput">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>122</width>
+              <height>24</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>122</width>
+              <height>24</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="toolTip">
+             <string>Export As</string>
+            </property>
+            <property name="statusTip">
+             <string>Export As Output</string>
+            </property>
+            <property name="text">
+             <string>Export As</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>icons/export.png</normaloff>icons/export.png</iconset>
+            </property>
+            <property name="shortcut">
+             <string>Ctrl+Shift+E</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pB_clearOutput">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>122</width>
+              <height>24</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>122</width>
+              <height>24</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>10</pointsize>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="toolTip">
+             <string>Clear</string>
+            </property>
+            <property name="statusTip">
+             <string>Clear Output</string>
+            </property>
+            <property name="text">
+             <string>Clear</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>icons/clear.png</normaloff>icons/clear.png</iconset>
+            </property>
+            <property name="shortcut">
+             <string>Ctrl+Shift+L</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="outputLabel">
+         <property name="minimumSize">
+          <size>
+           <width>497</width>
+           <height>429</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::Box</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Sunken</enum>
+         </property>
+         <property name="lineWidth">
+          <number>5</number>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="1" column="0" colspan="3">
+     <widget class="QGroupBox" name="groupBox">
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>61</height>
+       </size>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_6">
+       <item>
+        <widget class="QLabel" name="output2sourceLabel">
+         <property name="enabled">
+          <bool>false</bool>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>729</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="mouseTracking">
+          <bool>true</bool>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::WinPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Sunken</enum>
+         </property>
+         <property name="lineWidth">
+          <number>5</number>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap>icons/Arrow 8.png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1584</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <widget class="QMenu" name="menuExports_As">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="title">
+      <string>Exports As </string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>icons/export.png</normaloff>icons/export.png</iconset>
+     </property>
+     <addaction name="actionSource"/>
+     <addaction name="actionOutput"/>
+    </widget>
+    <addaction name="actionOpen_Source"/>
+    <addaction name="separator"/>
+    <addaction name="actionSave_Output"/>
+    <addaction name="actionSave_As_Output"/>
+    <addaction name="separator"/>
+    <addaction name="menuExports_As"/>
+    <addaction name="separator"/>
+    <addaction name="actionExit"/>
+   </widget>
+   <widget class="QMenu" name="menuEdit">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="title">
+     <string>Edit</string>
+    </property>
+    <widget class="QMenu" name="menuClear">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>355</x>
+       <y>173</y>
+       <width>126</width>
+       <height>116</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Clear</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>icons/clear.png</normaloff>icons/clear.png</iconset>
+     </property>
+     <addaction name="actionAll"/>
+     <addaction name="actionSource_2"/>
+     <addaction name="actionOutput_2"/>
+    </widget>
+    <addaction name="menuClear"/>
+    <addaction name="separator"/>
+    <addaction name="actionUndo"/>
+    <addaction name="actionRedo"/>
+   </widget>
+   <widget class="QMenu" name="menuConversion">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="title">
+     <string>Conversion</string>
+    </property>
+    <addaction name="actionRGB_to_Grayscale"/>
+    <addaction name="separator"/>
+    <addaction name="actionRGB_to_HSV"/>
+   </widget>
+   <widget class="QMenu" name="menuSegmentation">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="title">
+     <string>Segmentation</string>
+    </property>
+    <addaction name="actionMulti_Otsu_Th"/>
+    <addaction name="separator"/>
+    <addaction name="actionChan_Vese_Seg"/>
+    <addaction name="separator"/>
+    <addaction name="actionMorphological_Snakes"/>
+   </widget>
+   <widget class="QMenu" name="menuEdge_Detection">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="title">
+     <string>Edge Detection</string>
+    </property>
+    <addaction name="actionRoberts"/>
+    <addaction name="separator"/>
+    <addaction name="actionSobel"/>
+    <addaction name="separator"/>
+    <addaction name="actionScharr"/>
+    <addaction name="separator"/>
+    <addaction name="actionPrewitt"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuEdit"/>
+   <addaction name="menuConversion"/>
+   <addaction name="menuSegmentation"/>
+   <addaction name="menuEdge_Detection"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionOpen_Source">
+   <property name="icon">
+    <iconset>
+     <normaloff>icons/upload_file.png</normaloff>icons/upload_file.png</iconset>
+   </property>
+   <property name="text">
+    <string>Open Source</string>
+   </property>
+   <property name="statusTip">
+    <string>Open Source</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+O</string>
+   </property>
+  </action>
+  <action name="actionSave_Output">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>icons/save.png</normaloff>icons/save.png</iconset>
+   </property>
+   <property name="text">
+    <string>Save Output</string>
+   </property>
+   <property name="statusTip">
+    <string>Save Output</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+S</string>
+   </property>
+  </action>
+  <action name="actionSave_As_Output">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>icons/save_as.png</normaloff>icons/save_as.png</iconset>
+   </property>
+   <property name="text">
+    <string>Save As Output</string>
+   </property>
+   <property name="statusTip">
+    <string>Save As Output</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Shift+S</string>
+   </property>
+  </action>
+  <action name="actionExport_As_Output">
+   <property name="text">
+    <string>Export As Output</string>
+   </property>
+  </action>
+  <action name="actionExit">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>icons/exit.png</normaloff>icons/exit.png</iconset>
+   </property>
+   <property name="text">
+    <string>Exit</string>
+   </property>
+   <property name="statusTip">
+    <string>Exit</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Q</string>
+   </property>
+  </action>
+  <action name="actionSource">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>icons/export.png</normaloff>icons/export.png</iconset>
+   </property>
+   <property name="text">
+    <string>Source</string>
+   </property>
+   <property name="statusTip">
+    <string>Source</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+E</string>
+   </property>
+  </action>
+  <action name="actionOutput">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>icons/export.png</normaloff>icons/export.png</iconset>
+   </property>
+   <property name="text">
+    <string>Output</string>
+   </property>
+   <property name="statusTip">
+    <string>Output</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Shift+E</string>
+   </property>
+  </action>
+  <action name="actionUndo">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>icons/undo.png</normaloff>icons/undo.png</iconset>
+   </property>
+   <property name="text">
+    <string>Undo</string>
+   </property>
+   <property name="statusTip">
+    <string>Undo</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Z</string>
+   </property>
+  </action>
+  <action name="actionRedo">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>icons/redo.png</normaloff>icons/redo.png</iconset>
+   </property>
+   <property name="text">
+    <string>Redo</string>
+   </property>
+   <property name="statusTip">
+    <string>Redo</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Shift+Z</string>
+   </property>
+  </action>
+  <action name="actionAll">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>All</string>
+   </property>
+   <property name="statusTip">
+    <string>All</string>
+   </property>
+   <property name="shortcut">
+    <string>Del</string>
+   </property>
+  </action>
+  <action name="actionSource_2">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Source</string>
+   </property>
+   <property name="statusTip">
+    <string>Source</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+L</string>
+   </property>
+  </action>
+  <action name="actionOutput_2">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Output</string>
+   </property>
+   <property name="statusTip">
+    <string>Output</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Shift+L</string>
+   </property>
+  </action>
+  <action name="actionRGB_to_Grayscale">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>RGB to Grayscale</string>
+   </property>
+   <property name="statusTip">
+    <string>RGB to Grayscale</string>
+   </property>
+  </action>
+  <action name="actionRGB_to_HSV">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>RGB to HSV</string>
+   </property>
+   <property name="statusTip">
+    <string>RGB to HSV</string>
+   </property>
+  </action>
+  <action name="actionMulti_Otsu_Th">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>icons/mot.png</normaloff>icons/mot.png</iconset>
+   </property>
+   <property name="text">
+    <string>Multi-Otsu Thresholding</string>
+   </property>
+   <property name="statusTip">
+    <string>Multi-Otsu Thresholding</string>
+   </property>
+  </action>
+  <action name="actionChan_Vese_Seg">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>icons/cvs.png</normaloff>icons/cvs.png</iconset>
+   </property>
+   <property name="text">
+    <string>Chan-Vese Segmentation</string>
+   </property>
+   <property name="statusTip">
+    <string>Chan-Vese Segmentation</string>
+   </property>
+  </action>
+  <action name="actionMorphological_Snakes">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>icons/ms.png</normaloff>icons/ms.png</iconset>
+   </property>
+   <property name="text">
+    <string>Morphological Snakes</string>
+   </property>
+   <property name="statusTip">
+    <string>Morphological Snakes</string>
+   </property>
+  </action>
+  <action name="actionRoberts">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>icons/ro.png</normaloff>icons/ro.png</iconset>
+   </property>
+   <property name="text">
+    <string>Roberts</string>
+   </property>
+   <property name="statusTip">
+    <string>Roberts</string>
+   </property>
+  </action>
+  <action name="actionSobel">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>icons/so.png</normaloff>icons/so.png</iconset>
+   </property>
+   <property name="text">
+    <string>Sobel</string>
+   </property>
+   <property name="statusTip">
+    <string>Sobel</string>
+   </property>
+  </action>
+  <action name="actionScharr">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>icons/sch.png</normaloff>icons/sch.png</iconset>
+   </property>
+   <property name="text">
+    <string>Scharr</string>
+   </property>
+   <property name="statusTip">
+    <string>Scharr</string>
+   </property>
+  </action>
+  <action name="actionPrewitt">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>icons/pr.png</normaloff>icons/pr.png</iconset>
+   </property>
+   <property name="text">
+    <string>Prewitt</string>
+   </property>
+   <property name="statusTip">
+    <string>Prewitt</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
